@@ -9,9 +9,9 @@ were to:
 - [ ] Confidently present your work to a technical audience (5-10 minute presentation)
 
 ### Important Links
-[Front End Repo](https://github.com/mjeder/must-watch-client)
-[Deployed Client](mjeder.github.io/must-watch-client/)
-[Deployed API](https://must-watch-api.herokuapp.com/)
+- [Front End Repo](https://github.com/mjeder/must-watch-client)
+- [Deployed Client](mjeder.github.io/must-watch-client/)
+- [Deployed API](https://must-watch-api.herokuapp.com/)
 
 ### Planning Story
 I started off by writing down as many user stories I could think of which then
