@@ -1,6 +1,6 @@
 ## #MustWatch
-This is my first project at General Assembly and the goal was to create a Tic
-Tac Toe web application that is hosted live on GH-Pages. The main objectives
+This is my second project at General Assembly and the goal was to create a full stack
+web application that is hosted live on GH-Pages. The main objectives
 were to:
 - [ ] Build a single-page application (SPA) with basic user authentication
 (sign up, sign in, sign out, change password) that interacts with a custom API that you build
