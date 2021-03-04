@@ -10,7 +10,7 @@ were to:
 
 ### Important Links
 - [Front End Repo](https://github.com/mjeder/must-watch-client)
-- [Deployed Client](mjeder.github.io/must-watch-client/)
+- [Deployed Client](https://mjeder.github.io/must-watch-client/)
 - [Deployed API](https://must-watch-api.herokuapp.com/)
 
 ### Planning Story
