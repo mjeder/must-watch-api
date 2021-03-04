@@ -9,10 +9,9 @@ were to:
 - [ ] Confidently present your work to a technical audience (5-10 minute presentation)
 
 ### Important Links
-- Insert link to client repo (only on API README)
-- Insert link to API repo (only on client README)
-- Insert link to deployed client (on both READMEs)
-- Insert link to deployed API (on both READMEs)
+[Front End Repo](https://github.com/mjeder/must-watch-client)
+[Deployed Client](mjeder.github.io/must-watch-client/)
+[Deployed API](https://must-watch-api.herokuapp.com/)
 
 ### Planning Story
 I started off by writing down as many user stories I could think of which then
