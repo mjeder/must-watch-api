@@ -1,81 +1,114 @@
-## #MustWatch
+# #MustWatch
+It's a cold and rainy Sunday... you decide it's a perfect opportunity to lay down on the couch with a blanket, bowl of popcorn, and your favorite beverage and finally turn on a movie or TV show. BUT... you can't remember the name of that TV show all of your co-workers are talking about or the name of the movie your friends always give you a hard time for not seeing yet. 
+
+So, what do you do? 
+
+You pull out your phone and log into your #MustWatch account to view your list of TV shows and movies that you've been told you must watch!
+___
+**#MustWatch** is an application for users to create an account and log the movies or tv shows that they've been hearing about from friends, family, and social media. Once those shows are on their #MustWatch list they can add more, edit, remove, view their list, or screenshot and share with friends!
+___
 This is my second project at General Assembly and the goal was to create a full stack
-web application that is hosted live on GH-Pages. The main objectives
+web application hosted live on GH-Pages with an API hosted on Heroku. The main objectives
 were to:
 - [ ] Build a single-page application (SPA) with basic user authentication
-(sign up, sign in, sign out, change password) that interacts with a custom API that you build
-- [ ] Build an app that can create, read, update, and delete data in a database
+(sign up, sign in, sign out, change password) that interacts with a custom API that you build.
+- [ ] Build an app that can create, read, update, and delete data in a database.
 - [ ] Create user stories, ERDs and wireframes as part of planning out your app.
 - [ ] Confidently present your work to a technical audience (5-10 minute presentation)
-
-### Important Links
+___
+## Important Links
 - [Front End Repo](https://github.com/mjeder/must-watch-client)
 - [Deployed Client](https://mjeder.github.io/must-watch-client/)
 - [Deployed API](https://must-watch-api.herokuapp.com/)
+___
+## Planning Story
+I started off by writing user stories that would satisfy the requirements of the project and build a solid foundation for v1.0 of my application. Once I was able to document and decide on the user needs, I was able to start building out my wireframe and ERD to visualize how the application would look and operate. This lead to me creating a to-do list so I could stick to a daily schedule and ensure I would deliver my v1.0 by the deadline.
+___
+### Schedule
+#### Planning & Set Up
+- [x] Review full-stack-project-practice
+- [x] Review full-stack-project-modeling-lab
+- [x] Create User Stories
+- [x] Create Wire Frames
+- [x] Create ERD
 
-### Planning Story
-I started off by writing down as many user stories I could think of which then
-gave me the inspiration to start drawing out my wireframe. This led me to having
-a solid idea of how I wanted to sketch out my HTML and JS files.
+*API*
+- [X] Download Express API Template
+- [X] Create a Github Repository
+- [X] Deploy to Heroku
 
-Once I built out my foundatation I ran through the the following checklist:
+*Client*
+- [X] Download Browser Template
+- [X] Create a Github Repository
+- [X] Deploy to Github Pages
+___
+#### Back-End
+- [X] CRUD your resource
+- [X] Test your resource's end points with curl scripts
+- [X] Add the relationship to a User
+- [X] Add User ownership to resource controller
+- [X] Test your resource's end points with curl scripts
+___
+#### Front-End
+- [ ] Sign Up (curl then web app)
+- [ ] Sign In (curl then web app)
+- [ ] Change Password (curl then web app)
+- [ ] Sign Out (curl then web page)
+- [ ] All API calls have success or failure messages
+- [ ] Review query-ajax-post
+- [ ] Create resource (curl then web app)
+- [ ] Get all of their owned resources (curl then web app)
+- [ ] Delete single resource (curl then web app)
+- [ ] Update single resource (curl then web app)
+___
+#### Final Touches
+- [ ] README
+- [ ] Troubleshoot/Debug
+- [ ] Style
+___
+## User Stories
+- As a user I want to sign up, so I can create an account to store my data. (S/U)
 
-**Application**
-- [x] User must be able to sign up
-- [x] User must be able to sign in
-- [x] Signed in user must be able to change password
-- [x] Signed in user must be able to sign out
-- [x] Signed in user user must be able to start a tic tac toe game
-- [x] When playing game, user must start as X and then rotate between X and O
-- [x] When playing game, user must only select available spaces on the board
-- [x] When playing game, user must be notified when win, loss or tie occurs
-- [x] Once a game is over, user must not be able to add to that board
-- [x] Once a game is over, user must be able to play again
-- [x] Signed in user must be able to view number of games played
+- As a user I want to log in, so I have an account for my saved data. (S/I)
 
-**API**
-- [x] Sign up POST /sign-up
-- [x] Sign in POST /sign-in
-- [x] Change password PATCH /change-password
-- [x] Sign out DELETE /sign-out
-- [x] New game POST /games
-- [x] Update game PATCH /games/:id
-- [x] View number of games played GET /games
-- [x] Give feedback to the user after each action's success or failure.
-- [x] All forms must clear after submit success
+- As a user I want to change password, so I can.. well change my password. (C/P)
 
+- As a user I want to log out, so I know no one is accessing my data. (S/O)
 
-### User Stories
-- as a user, I want a sign up form so that I can create an account.
-- as a user, I want a sign in form so that I can log into my account.
-- as a user, I want a change password form so that I can change my account
-password.
-- as a user, I want a play game button so that I can start a game of tic tac
-toe.
-- as a user, I want to be able to click directly on the board so that I can
-choose where I want to place my game piece.
-- as a user, I want a results screen so that I can know the final outcome of
-the game.
-- as a user, I want a play again button so that I can play as many games as I
-would like.
-- as a user, I want a view all games button so that I can view my playing
-history.
-- as a user, I want a sign out button so that I can close out my account.
-- as a user, I want a flexible design so that I can play on my lap top, tablet,
-or phone.
+- As a user I want to add tv shows and/or movies to a list, so I can remember
+  which shows/movies I want to watch. (C)
 
-### Technologies Used
-- jQuery
-- HTML/CSS
+- As a user I want to be able to view my lists, so I can keep track of what I added. (R)
+
+- As a user I want to be able to update my lists, so I can make edits if needed. (U)
+
+- As a user I want to be able to delete items off my lists, once I watched them. (D)
+___
+## Technologies Used
+- HTML
+- CSS
 - Bootstrap
-- Javascript
-- Ajaxgit
-
-### Unsolved Problems
-- [x] All requirements met
-
-Would like to eventually:
-- [ ] Add AI so a user can play against the computer at different skill levels
-
-##### Wireframe:
-[Wireframe Link](https://wireframepro.mockflow.com/view/tictactoe-wireframe-eder#/page/56232057d2ca4ded9e253877b5304c5d)
+- JavaScript
+- Node.js
+- Express
+- MongoDB
+- Mongoose
+- Heroku
+- jQuery
+- Ajax
+___
+## Unsolved Problems
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+___
+## Would like to eventually:
+- [ ] 
+- [ ] 
+- [ ] 
+___
+## ERD
+![#MustWatch - ERD](https://i.imgur.com/9HHBOQX.png)
