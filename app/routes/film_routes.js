@@ -30,7 +30,7 @@ const router = express.Router()
 // INDEX
 // GET /films
 router.get('/films', requireToken, (req, res, next) => {
-  Film.find()
+  Film.find({ owner: req.user.id })
     .then(films => {
       // `films` will be an array of Mongoose documents
       // we want to convert each one to a POJO, so we use `.map` to
