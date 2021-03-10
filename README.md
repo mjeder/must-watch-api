@@ -10,10 +10,10 @@ ___
 This is my second project at General Assembly and the goal was to create a full stack
 web application hosted live on GH-Pages with an API hosted on Heroku. The main objectives
 were to:
-- [ ] Build a single-page application (SPA) with basic user authentication
+- [X] Build a single-page application (SPA) with basic user authentication
 (sign up, sign in, sign out, change password) that interacts with a custom API that you build.
-- [ ] Build an app that can create, read, update, and delete data in a database.
-- [ ] Create user stories, ERDs and wireframes as part of planning out your app.
+- [X] Build an app that can create, read, update, and delete data in a database.
+- [X] Create user stories, ERDs and wireframes as part of planning out your app.
 - [ ] Confidently present your work to a technical audience (5-10 minute presentation)
 ___
 ## Important Links
@@ -50,20 +50,20 @@ ___
 - [X] Test your resource's end points with curl scripts
 ___
 #### Front-End
-- [ ] Sign Up (curl then web app)
-- [ ] Sign In (curl then web app)
-- [ ] Change Password (curl then web app)
-- [ ] Sign Out (curl then web page)
-- [ ] All API calls have success or failure messages
-- [ ] Review query-ajax-post
-- [ ] Create resource (curl then web app)
-- [ ] Get all of their owned resources (curl then web app)
-- [ ] Delete single resource (curl then web app)
-- [ ] Update single resource (curl then web app)
+- [X] Sign Up (curl then web app)
+- [X] Sign In (curl then web app)
+- [X] Change Password (curl then web app)
+- [X] Sign Out (curl then web page)
+- [X] All API calls have success or failure messages
+- [X] Review query-ajax-post
+- [X] Create resource (curl then web app)
+- [X] Get all of their owned resources (curl then web app)
+- [X] Delete single resource (curl then web app)
+- [X] Update single resource (curl then web app)
 ___
 #### Final Touches
-- [ ] README
-- [ ] Troubleshoot/Debug
+- [X] README
+- [X] Troubleshoot/Debug
 - [ ] Style
 ___
 ## User Stories
@@ -98,17 +98,16 @@ ___
 - Ajax
 ___
 ## Unsolved Problems
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] When editing a TV or Movie in the list, the form to update populates for every film on the list instead of just the film you want to edit. The functionality works but in terms of the UI I would prefer that only the one form populates.
+- [ ] Edit button only works for the first film listed. For example, if you want to edit the 3rd film down youd have to click edit on the first film then fill in the form that's actually on the 3rd film. (I believe the above issue ties directly in with this.)
+- [ ] Build a template for the list so it shows up in a more structured form instead of basic html
+- [ ] Style and UI could be much cleaner.
 ___
 ## Would like to eventually:
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] Separate lists, so there is a TV list and Movie list. Possibly break those two lists into subcategories by genre.
+- [ ] Add a watched list, so instead of just deleting the film you click 'watched' and it goes to a separate list for reference. 
+- [ ] Add a randomizer button, so you can have the app randomly pick a movie or show on your list for you to watch. For those nights when you cant make a decision. 
+- [ ] The ultimate goal is to have Guidebox API built into the app and allow users to search for shows and movies to add to their list instead of manually typing them in. Could also be used for strictly a database if you wanted to check if a specific movie or tv show is on a streaming service you subscribe to.
 ___
 ## ERD
 ![#MustWatch - ERD](https://i.imgur.com/9HHBOQX.png)
