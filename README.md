@@ -1,4 +1,4 @@
-# #MustWatch
+# #MustWatch | General Assembly: Full Stack Project
 It's a cold and rainy Sunday... you decide it's a perfect opportunity to lay down on the couch with a blanket, bowl of popcorn, and your favorite beverage and finally turn on a movie or TV show. BUT... you can't remember the name of that TV show all of your co-workers are talking about or the name of the movie your friends always give you a hard time for not seeing yet. 
 
 So, what do you do? 
